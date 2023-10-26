@@ -11,7 +11,7 @@ CREATE TABLE employees
 
 CREATE TABLE customers
 (
-	customer_id CHAR(5) PRIMARY KEY, -- Устанавливается 'PRIMARY KEY'
+	customer_id CHAR(5) PRIMARY KEY,
 	company_name varchar(60),
 	contact_name varchar(70)
 );
